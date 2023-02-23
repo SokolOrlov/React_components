@@ -1,0 +1,16 @@
+
+
+.toast{
+    width: 200px;
+    height: 50px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    position: absolute;
+    top: 0;
+    left: calc(50% - 100px);
+}

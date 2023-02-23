@@ -1,0 +1,55 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 9px;
+  border-bottom: 1px solid #cccccc;
+  color: black;
+  height: 20px;
+}
+
+.header > h4 {
+  font-size: 16px;
+  line-height: 1;
+  font-weight: normal;
+  color: var(--black-color);
+}
+
+.header > button {
+  width: 20px;
+  height: 20px;
+  background: transparent;
+  border: none;
+  transition: transform 0.3s ease-in;
+  cursor: pointer;
+}
+
+.header > button:hover {
+  transform: rotate(180deg);
+}
+
+.header > button > svg {
+    color: black;
+    height: 20px;
+    width: 20px;
+}
+
+.modal {
+  background-color: #f9f9fa;
+  border-radius: 6px;
+  border: 1px solid #cccccc;
+  box-shadow: 1px 1px 12px 0px rgb(35 44 58 / 25%);
+}
+
+.background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.2);
+  width: 100vw;
+  height: 100vh;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
