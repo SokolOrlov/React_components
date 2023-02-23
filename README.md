@@ -1,15 +1,17 @@
 # React_components
 
 
-Use modal as global component.
+##Use Modal as global component:
 
 const customModal = useCustomModal();
 
 customModal.add(() => console.log("success"));
 customModal.edit(1, () => console.log("success"));
-------------------------------------------------------
 
-Self Toast.
+
+
+
+##Use Tast as global component:
 
 const toast = useToast();
 
